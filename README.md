@@ -9,3 +9,12 @@ The frontend takes raw text (for example from wikipedia or pdf files) and conver
 
 **backend** <br />
 The backend tries to answer posed questions by searching for relevant sentences in the database and answering the question with these using a LM.
+
+#### requirements
+
+    !pip install transformers
+    !pip install accelerate
+    !pip install deepspeed
+    !pip install wikipedia-api
+    
+ 
